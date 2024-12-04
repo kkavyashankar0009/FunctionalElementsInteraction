@@ -1,0 +1,5 @@
+https://scenefun3d.github.io/documentation/toolkit/data-downloader/#download-the-test-set
+
+
+## To download custom dataset with csv file that has visit_id and video_id
+python -m data_downloader.data_asset_download --split custom --video_id_csv C:\Users\kkavy\FunctionalElementsInteraction\data\sample_train_val_set.csv --download_dir data/ --dataset_assets  laser_scan_5mm lowres_wide lowres_depth lowres_wide_intrinsics hires_wide hires_wide_intrinsics hires_depth lowres_poses hires_poses vid_mov vid_mp4 arkit_mesh transform descriptions motions crop_mask annotations
